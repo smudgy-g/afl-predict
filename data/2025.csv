@@ -1,0 +1,162 @@
+date,home_team,away_team,home_score,away_score
+2025-03-07,Sydney,Hawthorn,76,96
+2025-03-09,GWS,Collingwood,104,52
+2025-03-13,Richmond,Carlton,82,69
+2025-03-14,Hawthorn,Essendon,111,85
+2025-03-15,Geelong,Fremantle,147,69
+2025-03-15,Sydney,Brisbane,82,86
+2025-03-15,Western Bulldogs,North Melbourne,113,97
+2025-03-15,Collingwood,Port Adelaide,136,45
+2025-03-16,Adelaide,St Kilda,135,72
+2025-03-16,West Coast,Gold Coast,49,136
+2025-03-16,Melbourne,GWS,74,77
+2025-03-20,Carlton,Hawthorn,60,80
+2025-03-21,Western Bulldogs,Collingwood,70,76
+2025-03-22,Essendon,Adelaide,100,161
+2025-03-22,Port Adelaide,Richmond,140,68
+2025-03-22,St Kilda,Geelong,98,91
+2025-03-23,Brisbane,West Coast,94,75
+2025-03-23,Fremantle,Sydney,65,68
+2025-03-23,North Melbourne,Melbourne,125,66
+2025-03-27,Essendon,Port Adelaide,72,60
+2025-03-28,Carlton,Western Bulldogs,75,83
+2025-03-29,Melbourne,Gold Coast,62,120
+2025-03-29,St Kilda,Richmond,135,53
+2025-03-29,Brisbane,Geelong,70,61
+2025-03-29,Hawthorn,GWS,76,64
+2025-03-30,Adelaide,North Melbourne,114,78
+2025-03-30,West Coast,Fremantle,68,106
+2025-04-03,Collingwood,Carlton,63,46
+2025-04-04,Geelong,Melbourne,85,46
+2025-04-05,Gold Coast,Adelaide,91,90
+2025-04-05,Richmond,Brisbane,90,118
+2025-04-05,North Melbourne,Sydney,52,117
+2025-04-06,GWS,West Coast,132,51
+2025-04-06,Port Adelaide,St Kilda,72,89
+2025-04-06,Fremantle,Western Bulldogs,97,81
+2025-04-10,Adelaide,Geelong,100,119
+2025-04-11,Collingwood,Sydney,109,78
+2025-04-12,North Melbourne,Gold Coast,89,141
+2025-04-12,Carlton,West Coast,121,50
+2025-04-12,Western Bulldogs,Brisbane,97,118
+2025-04-12,Melbourne,Essendon,57,96
+2025-04-13,Richmond,Fremantle,47,108
+2025-04-13,St Kilda,GWS,82,110
+2025-04-13,Port Adelaide,Hawthorn,121,91
+2025-04-17,Brisbane,Collingwood,53,105
+2025-04-18,North Melbourne,Carlton,71,153
+2025-04-18,West Coast,Essendon,75,77
+2025-04-19,Melbourne,Fremantle,107,97
+2025-04-19,Adelaide,GWS,52,34
+2025-04-19,Richmond,Gold Coast,80,69
+2025-04-20,Sydney,Port Adelaide,77,85
+2025-04-20,Western Bulldogs,St Kilda,127,56
+2025-04-21,Geelong,Hawthorn,86,79
+2025-04-24,Melbourne,Richmond,83,63
+2025-04-25,Collingwood,Essendon,107,66
+2025-04-25,Fremantle,Adelaide,85,67
+2025-04-26,St Kilda,Brisbane,73,118
+2025-04-26,Port Adelaide,North Melbourne,97,88
+2025-04-26,GWS,Western Bulldogs,81,113
+2025-04-27,Gold Coast,Sydney,117,79
+2025-04-27,Carlton,Geelong,94,76
+2025-04-27,Hawthorn,West Coast,124,74
+2025-05-01,Essendon,North Melbourne,65,62
+2025-05-02,St Kilda,Fremantle,94,33
+2025-05-03,Western Bulldogs,Port Adelaide,131,41
+2025-05-03,Adelaide,Carlton,110,50
+2025-05-03,West Coast,Melbourne,76,108
+2025-05-03,Collingwood,Geelong,87,90
+2025-05-04,Sydney,GWS,87,73
+2025-05-04,Hawthorn,Richmond,109,44
+2025-05-04,Brisbane,Gold Coast,66,49
+2025-05-08,Fremantle,Collingwood,83,97
+2025-05-09,St Kilda,Carlton,62,77
+2025-05-10,Melbourne,Hawthorn,56,91
+2025-05-10,Essendon,Sydney,71,63
+2025-05-10,Gold Coast,Western Bulldogs,106,96
+2025-05-10,Port Adelaide,Adelaide,84,89
+2025-05-11,Richmond,West Coast,81,79
+2025-05-11,Geelong,GWS,101,105
+2025-05-11,North Melbourne,Brisbane,71,71
+2025-05-15,Gold Coast,Hawthorn,104,96
+2025-05-16,Sydney,Carlton,78,62
+2025-05-17,Collingwood,Adelaide,78,68
+2025-05-17,Port Adelaide,Geelong,39,115
+2025-05-17,GWS,Fremantle,61,95
+2025-05-17,Western Bulldogs,Essendon,127,36
+2025-05-18,Richmond,North Melbourne,74,78
+2025-05-18,West Coast,St Kilda,108,80
+2025-05-18,Brisbane,Melbourne,88,99
+2025-05-22,Geelong,Western Bulldogs,127,113
+2025-05-23,Essendon,Richmond,81,58
+2025-05-24,Carlton,GWS,82,110
+2025-05-24,Hawthorn,Brisbane,60,93
+2025-05-24,Fremantle,Port Adelaide,100,51
+2025-05-24,North Melbourne,Collingwood,63,108
+2025-05-25,Adelaide,West Coast,128,62
+2025-05-25,Melbourne,Sydney,131,78
+2025-05-25,St Kilda,Gold Coast,61,80
+2025-05-29,Brisbane,Essendon,90,72
+2025-05-30,Collingwood,Hawthorn,107,56
+2025-05-31,Gold Coast,Fremantle,64,75
+2025-05-31,GWS,Richmond,80,77
+2025-05-31,Sydney,Adelaide,41,131
+2025-06-01,Melbourne,St Kilda,63,91
+2025-06-01,West Coast,Geelong,73,116
+2025-06-05,Western Bulldogs,Hawthorn,59,81
+2025-06-06,Adelaide,Brisbane,68,63
+2025-06-07,Richmond,Sydney,36,80
+2025-06-07,Geelong,Gold Coast,61,37
+2025-06-07,GWS,Port Adelaide,50,66
+2025-06-08,North Melbourne,West Coast,62,52
+2025-06-08,Carlton,Essendon,78,70
+2025-06-09,Melbourne,Collingwood,71,72
+2025-06-12,St Kilda,Western Bulldogs,60,132
+2025-06-13,Hawthorn,Adelaide,47,44
+2025-06-14,Brisbane,GWS,96,107
+2025-06-14,Essendon,Geelong,56,151
+2025-06-14,North Melbourne,Fremantle,67,73
+2025-06-15,Port Adelaide,Melbourne,93,68
+2025-06-15,West Coast,Carlton,52,86
+2025-06-19,Fremantle,Essendon,104,63
+2025-06-20,Geelong,Brisbane,51,92
+2025-06-21,Carlton,North Melbourne,73,84
+2025-06-21,Port Adelaide,Sydney,52,71
+2025-06-21,Collingwood,St Kilda,108,74
+2025-06-22,GWS,Gold Coast,106,99
+2025-06-22,Western Bulldogs,Richmond,135,56
+2025-06-26,Port Adelaide,Carlton,110,60
+2025-06-27,Sydney,Western Bulldogs,96,105
+2025-06-28,Gold Coast,Melbourne,104,85
+2025-06-28,Hawthorn,North Melbourne,150,65
+2025-06-28,Collingwood,West Coast,88,59
+2025-06-29,Fremantle,St Kilda,81,69
+2025-06-29,Richmond,Adelaide,54,122
+2025-07-03,North Melbourne,Western Bulldogs,85,134
+2025-07-04,West Coast,GWS,52,111
+2025-07-04,Carlton,Collingwood,59,115
+2025-07-05,Essendon,Gold Coast,74,115
+2025-07-05,Geelong,Richmond,124,52
+2025-07-05,Brisbane,Port Adelaide,120,92
+2025-07-05,St Kilda,Hawthorn,74,94
+2025-07-06,Sydney,Fremantle,94,83
+2025-07-06,Adelaide,Melbourne,90,77
+2025-07-10,Carlton,Brisbane,66,103
+2025-07-11,Gold Coast,Collingwood,69,63
+2025-07-12,Western Bulldogs,Adelaide,98,109
+2025-07-12,GWS,Geelong,111,85
+2025-07-12,Fremantle,Hawthorn,77,64
+2025-07-12,Richmond,Essendon,46,37
+2025-07-13,Melbourne,North Melbourne,119,83
+2025-07-13,St Kilda,Sydney,87,92
+2025-07-13,Port Adelaide,West Coast,87,61
+2025-07-17,Essendon,GWS,56,104
+2025-07-18,Brisbane,Western Bulldogs,86,76
+2025-07-19,Hawthorn,Port Adelaide,87,49
+2025-07-19,Sydney,North Melbourne,84,53
+2025-07-19,West Coast,Richmond,56,105
+2025-07-19,Carlton,Melbourne,78,70
+2025-07-20,Geelong,St Kilda,113,82
+2025-07-20,Collingwood,Fremantle,78,79
+2025-07-20,Adelaide,Gold Coast,107,46

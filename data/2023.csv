@@ -1,0 +1,217 @@
+date,home_team,away_team,home_score,away_score
+2023-03-16,Richmond,Carlton,58,58
+2023-03-17,Geelong,Collingwood,103,125
+2023-03-18,North Melbourne,West Coast,87,82
+2023-03-18,Port Adelaide,Brisbane,126,72
+2023-03-18,Gold Coast,Sydney,61,110
+2023-03-18,Melbourne,Western Bulldogs,115,65
+2023-03-19,GWS,Adelaide,106,90
+2023-03-19,Hawthorn,Essendon,65,124
+2023-03-19,St Kilda,Fremantle,67,52
+2023-03-23,Carlton,Geelong,90,82
+2023-03-24,Brisbane,Melbourne,93,82
+2023-03-25,Collingwood,Port Adelaide,135,64
+2023-03-25,Adelaide,Richmond,76,108
+2023-03-25,Fremantle,North Melbourne,72,73
+2023-03-25,Western Bulldogs,St Kilda,41,92
+2023-03-26,Sydney,Hawthorn,118,37
+2023-03-26,West Coast,GWS,100,81
+2023-03-26,Essendon,Gold Coast,108,80
+2023-03-30,Western Bulldogs,Brisbane,67,53
+2023-03-31,Collingwood,Richmond,63,49
+2023-04-01,Hawthorn,North Melbourne,80,61
+2023-04-01,GWS,Carlton,64,74
+2023-04-01,Port Adelaide,Adelaide,86,117
+2023-04-01,St Kilda,Essendon,92,74
+2023-04-02,Gold Coast,Geelong,73,54
+2023-04-02,Fremantle,West Coast,108,67
+2023-04-02,Melbourne,Sydney,134,84
+2023-04-06,Brisbane,Collingwood,116,83
+2023-04-07,North Melbourne,Carlton,84,107
+2023-04-08,Adelaide,Fremantle,111,72
+2023-04-08,Richmond,Western Bulldogs,84,89
+2023-04-08,St Kilda,Gold Coast,113,60
+2023-04-08,Sydney,Port Adelaide,64,66
+2023-04-09,Essendon,GWS,88,75
+2023-04-09,West Coast,Melbourne,63,126
+2023-04-10,Geelong,Hawthorn,127,45
+2023-04-13,Adelaide,Carlton,118,62
+2023-04-14,Fremantle,Gold Coast,100,90
+2023-04-14,Richmond,Sydney,78,122
+2023-04-15,Brisbane,North Melbourne,152,77
+2023-04-15,Essendon,Melbourne,104,77
+2023-04-15,Port Adelaide,Western Bulldogs,70,56
+2023-04-16,Geelong,West Coast,136,89
+2023-04-16,GWS,Hawthorn,77,75
+2023-04-16,Collingwood,St Kilda,70,64
+2023-04-21,Fremantle,Western Bulldogs,69,118
+2023-04-22,Port Adelaide,West Coast,109,69
+2023-04-22,GWS,Brisbane,87,108
+2023-04-22,Geelong,Sydney,130,37
+2023-04-23,Hawthorn,Adelaide,76,79
+2023-04-23,Carlton,St Kilda,60,82
+2023-04-23,Gold Coast,North Melbourne,97,54
+2023-04-24,Melbourne,Richmond,96,78
+2023-04-25,Collingwood,Essendon,90,77
+2023-04-28,St Kilda,Port Adelaide,76,83
+2023-04-29,Brisbane,Fremantle,115,67
+2023-04-29,Sydney,GWS,106,107
+2023-04-29,Western Bulldogs,Hawthorn,94,65
+2023-04-29,West Coast,Carlton,44,152
+2023-04-29,Melbourne,North Melbourne,139,49
+2023-04-30,Essendon,Geelong,104,132
+2023-04-30,Richmond,Gold Coast,48,72
+2023-04-30,Adelaide,Collingwood,58,59
+2023-05-05,Carlton,Brisbane,74,100
+2023-05-06,Richmond,West Coast,104,58
+2023-05-06,Geelong,Adelaide,98,72
+2023-05-06,Gold Coast,Melbourne,85,90
+2023-05-06,Fremantle,Hawthorn,117,48
+2023-05-06,GWS,Western Bulldogs,71,86
+2023-05-07,Port Adelaide,Essendon,92,87
+2023-05-07,Collingwood,Sydney,77,48
+2023-05-07,North Melbourne,St Kilda,34,64
+2023-05-12,West Coast,Gold Coast,43,113
+2023-05-12,Richmond,Geelong,102,78
+2023-05-13,Sydney,Fremantle,86,103
+2023-05-13,North Melbourne,Port Adelaide,65,135
+2023-05-13,Hawthorn,Melbourne,49,103
+2023-05-13,Brisbane,Essendon,87,45
+2023-05-13,Carlton,Western Bulldogs,59,79
+2023-05-14,Adelaide,St Kilda,121,69
+2023-05-14,Collingwood,GWS,120,55
+2023-05-19,Port Adelaide,Melbourne,80,76
+2023-05-20,North Melbourne,Sydney,90,93
+2023-05-20,Western Bulldogs,Adelaide,85,40
+2023-05-20,Fremantle,Geelong,106,77
+2023-05-20,Brisbane,Gold Coast,107,64
+2023-05-20,Essendon,Richmond,71,70
+2023-05-21,Hawthorn,West Coast,142,26
+2023-05-21,Carlton,Collingwood,57,85
+2023-05-21,GWS,St Kilda,80,92
+2023-05-26,Sydney,Carlton,77,51
+2023-05-27,St Kilda,Hawthorn,78,88
+2023-05-27,Melbourne,Fremantle,72,79
+2023-05-27,Geelong,GWS,74,81
+2023-05-27,West Coast,Essendon,46,96
+2023-05-27,Gold Coast,Western Bulldogs,84,77
+2023-05-28,Richmond,Port Adelaide,67,77
+2023-05-28,Collingwood,North Melbourne,105,70
+2023-05-28,Adelaide,Brisbane,95,78
+2023-06-02,Melbourne,Carlton,61,44
+2023-06-03,Port Adelaide,Hawthorn,151,96
+2023-06-03,West Coast,Collingwood,57,120
+2023-06-03,Gold Coast,Adelaide,112,87
+2023-06-03,Western Bulldogs,Geelong,75,97
+2023-06-04,GWS,Richmond,104,110
+2023-06-04,Essendon,North Melbourne,105,99
+2023-06-08,Sydney,St Kilda,66,80
+2023-06-09,Western Bulldogs,Port Adelaide,85,107
+2023-06-10,Hawthorn,Brisbane,98,73
+2023-06-10,Adelaide,West Coast,174,52
+2023-06-10,Fremantle,Richmond,70,85
+2023-06-11,North Melbourne,GWS,75,103
+2023-06-11,Carlton,Essendon,52,86
+2023-06-12,Melbourne,Collingwood,66,62
+2023-06-15,Port Adelaide,Geelong,110,72
+2023-06-16,Brisbane,Sydney,97,81
+2023-06-17,GWS,Fremantle,106,36
+2023-06-17,Richmond,St Kilda,90,70
+2023-06-18,Carlton,Gold Coast,120,61
+2023-06-18,North Melbourne,Western Bulldogs,84,105
+2023-06-22,Geelong,Melbourne,78,63
+2023-06-23,St Kilda,Brisbane,56,84
+2023-06-24,Sydney,West Coast,205,34
+2023-06-24,Fremantle,Essendon,93,61
+2023-06-25,Collingwood,Adelaide,82,80
+2023-06-25,Gold Coast,Hawthorn,101,34
+2023-06-29,Brisbane,Richmond,134,53
+2023-06-30,Sydney,Geelong,54,54
+2023-07-01,Adelaide,North Melbourne,138,72
+2023-07-01,Western Bulldogs,Fremantle,102,73
+2023-07-01,Gold Coast,Collingwood,42,120
+2023-07-01,Essendon,Port Adelaide,74,78
+2023-07-02,Hawthorn,Carlton,52,112
+2023-07-02,West Coast,St Kilda,77,85
+2023-07-02,Melbourne,GWS,45,47
+2023-07-06,Richmond,Sydney,88,75
+2023-07-07,Western Bulldogs,Collingwood,77,89
+2023-07-08,Brisbane,West Coast,116,35
+2023-07-08,GWS,Hawthorn,85,72
+2023-07-08,Port Adelaide,Gold Coast,106,73
+2023-07-08,St Kilda,Melbourne,58,79
+2023-07-09,Geelong,North Melbourne,125,63
+2023-07-09,Fremantle,Carlton,45,98
+2023-07-09,Essendon,Adelaide,115,97
+2023-07-13,Sydney,Western Bulldogs,78,76
+2023-07-14,Melbourne,Brisbane,105,104
+2023-07-15,Collingwood,Fremantle,113,67
+2023-07-15,Gold Coast,St Kilda,77,51
+2023-07-15,Carlton,Port Adelaide,122,72
+2023-07-15,Adelaide,GWS,57,71
+2023-07-15,Geelong,Essendon,122,45
+2023-07-16,North Melbourne,Hawthorn,40,88
+2023-07-16,West Coast,Richmond,60,98
+2023-07-21,Essendon,Western Bulldogs,49,90
+2023-07-22,Richmond,Hawthorn,96,95
+2023-07-22,Carlton,West Coast,140,69
+2023-07-22,Brisbane,Geelong,64,53
+2023-07-22,Fremantle,Sydney,76,105
+2023-07-22,Port Adelaide,Collingwood,83,85
+2023-07-23,GWS,Gold Coast,103,63
+2023-07-23,Melbourne,Adelaide,97,93
+2023-07-23,St Kilda,North Melbourne,69,61
+2023-07-28,Collingwood,Carlton,76,93
+2023-07-29,Geelong,Fremantle,64,71
+2023-07-29,Western Bulldogs,GWS,73,78
+2023-07-29,Gold Coast,Brisbane,96,55
+2023-07-29,Adelaide,Port Adelaide,112,65
+2023-07-29,Essendon,Sydney,99,101
+2023-07-30,Hawthorn,St Kilda,93,122
+2023-07-30,West Coast,North Melbourne,72,67
+2023-07-30,Richmond,Melbourne,98,130
+2023-08-04,Western Bulldogs,Richmond,126,71
+2023-08-05,Adelaide,Gold Coast,89,61
+2023-08-05,Essendon,West Coast,73,72
+2023-08-05,Hawthorn,Collingwood,105,73
+2023-08-05,Geelong,Port Adelaide,97,85
+2023-08-05,GWS,Sydney,85,96
+2023-08-06,North Melbourne,Melbourne,71,103
+2023-08-06,Fremantle,Brisbane,74,77
+2023-08-06,St Kilda,Carlton,54,73
+2023-08-11,Collingwood,Geelong,109,101
+2023-08-12,Sydney,Gold Coast,114,90
+2023-08-12,North Melbourne,Essendon,77,86
+2023-08-12,Brisbane,Adelaide,99,93
+2023-08-12,West Coast,Fremantle,33,134
+2023-08-12,Carlton,Melbourne,60,56
+2023-08-13,Hawthorn,Western Bulldogs,67,64
+2023-08-13,St Kilda,Richmond,93,57
+2023-08-13,Port Adelaide,GWS,136,85
+2023-08-18,Collingwood,Brisbane,100,124
+2023-08-19,Richmond,North Melbourne,101,72
+2023-08-19,Gold Coast,Carlton,87,91
+2023-08-19,GWS,Essendon,162,36
+2023-08-19,Adelaide,Sydney,73,74
+2023-08-19,St Kilda,Geelong,88,55
+2023-08-20,Western Bulldogs,West Coast,85,92
+2023-08-20,Fremantle,Port Adelaide,58,74
+2023-08-20,Melbourne,Hawthorn,87,60
+2023-08-25,Essendon,Collingwood,31,101
+2023-08-26,North Melbourne,Gold Coast,132,97
+2023-08-26,Hawthorn,Fremantle,56,93
+2023-08-26,Brisbane,St Kilda,72,60
+2023-08-26,West Coast,Adelaide,78,123
+2023-08-26,Geelong,Western Bulldogs,79,104
+2023-08-27,Port Adelaide,Richmond,94,63
+2023-08-27,Sydney,Melbourne,56,77
+2023-08-27,Carlton,GWS,73,105
+2023-09-07,Collingwood,Melbourne,60,53
+2023-09-08,Carlton,Sydney,74,68
+2023-09-09,St Kilda,GWS,77,101
+2023-09-09,Brisbane,Port Adelaide,123,75
+2023-09-15,Melbourne,Carlton,71,73
+2023-09-16,Port Adelaide,GWS,70,93
+2023-09-22,Collingwood,GWS,58,57
+2023-09-23,Brisbane,Carlton,79,63
+2023-09-30,Collingwood,Brisbane,90,86
