@@ -1,11 +1,17 @@
 import pandas as pd
-from pandas import DataFrame
 
 from config import WIN_POINTS, DRAW_POINTS, LOSS_POINTS, DEFAULT_ELO
 from elo import update_elo
 
 
-def initialise_stats_table(seasons_data: dict[int, DataFrame]) -> DataFrame:
+def initialise_stats_table(seasons_data: dict[int, pd.DataFrame]) -> pd.DataFrame:
+    """
+    Initializes a new DataFrame to store team statistics and Elo ratings.
+
+    The table is populated with all unique team names found across the
+    provided seasons and initializes their stats (Elo, wins, games played, etc.)
+    to their default values.
+    """
     all_teams = set()
     for _, df_season in seasons_data.items():
         all_teams.update(df_season['home_team'].unique())
@@ -24,16 +30,16 @@ def initialise_stats_table(seasons_data: dict[int, DataFrame]) -> DataFrame:
     })
 
 
-def update_stats_table(stats_table: pd.DataFrame, season_data: pd.DataFrame) -> pd.DataFrame:
-    season_home_win_percentage = season_data[season_data['location'] == 'home']['win_percentage'].iloc[0]
-    season_away_win_percentage = season_data[season_data['location'] == 'away']['win_percentage'].iloc[0]
-    season_win_average = (season_home_win_percentage + season_away_win_percentage) / 2
+def update_stats_table(stats_table: pd.DataFrame, season_data: pd.DataFrame, home_elo_bonus: float) -> pd.DataFrame:
+    """
+    Updates team statistics and Elo ratings for all games in a season.
 
-    home_advantage = season_home_win_percentage - season_win_average
-    away_advantage = season_away_win_percentage - season_win_average
-
+    This function iterates through each game in a given season, applies the home
+    Elo bonus, updates the teams' Elo ratings, and increments their win/loss/draw
+    and games played counts.
+    """
     stats_copy = stats_table.copy()
-    for index, row in season_data.iterrows():
+    for _, row in season_data.iterrows():
         home_team = row['home_team']
         away_team = row['away_team']
         home_score = row['home_score']
@@ -42,11 +48,11 @@ def update_stats_table(stats_table: pd.DataFrame, season_data: pd.DataFrame) -> 
         current_home_elo = stats_copy[stats_copy['team'] == home_team]['elo'].iloc[0]
         current_away_elo = stats_copy[stats_copy['team'] == away_team]['elo'].iloc[0]
 
+        adjusted_home_elo = current_home_elo + home_elo_bonus
+
         result = 'H' if home_score > away_score else 'A'
         if home_score == away_score:
             result = 'D'
-
-        stats_copy['date'] = pd.to_datetime(row['date'])
 
         stats_copy.loc[stats_copy['team'] == home_team, 'games_played'] += 1
         stats_copy.loc[stats_copy['team'] == away_team, 'games_played'] += 1
@@ -72,11 +78,7 @@ def update_stats_table(stats_table: pd.DataFrame, season_data: pd.DataFrame) -> 
             stats_copy.loc[stats_copy['team'] == home_team, 'draws'] += 1
             stats_copy.loc[stats_copy['team'] == away_team, 'draws'] += 1
 
-        stats_copy['win_percentage'] = stats_copy['wins'] / stats_copy['games_played']
-        home_win_percentage_diff = home_team['win_percentage'].iloc[0] - season_win_average
-        away_win_percentage_diff = away_team['win_percentage'].iloc[0] - season_win_average
-
-        new_home_elo, new_away_elo = update_elo(current_home_elo, current_away_elo, result)
+        new_home_elo, new_away_elo = update_elo(adjusted_home_elo, current_away_elo, result)
         stats_copy.loc[stats_copy['team'] == home_team, 'elo'] = new_home_elo
         stats_copy.loc[stats_copy['team'] == away_team, 'elo'] = new_away_elo
 

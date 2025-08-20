@@ -8,8 +8,7 @@ from config import WEIGHT, K_FACTOR
 def calculate_expected_result(elo_a: float, elo_b: float) -> tuple[float, float]:
     """
     Takes the Elo ratings of two teams and returns the probability of each team winning.
-    Formula: E_A = 1 / (1 + 10((R_B − R_A)/400))
-    :return: tuple[team_a: float, team_b: float]
+    Formula: E_A = 1 / (1 + 10((R_B - R_A)/400))
     """
     team_a = 1 / (1 + math.pow(10, (elo_b - elo_a) / WEIGHT))
     team_b = 1 - team_a
@@ -34,7 +33,7 @@ def get_actual_result(result: str) -> float:
 def update_elo(elo_home: float, elo_away: float, result: str) -> tuple[float, float]:
     """
     Updates the Elo ratings after a game.
-    Formula: R_A′ = R_A + K(S_A − E_A)
+    Formula: R_A' = R_A + K(S_A - E_A)
     """
     expected_result, _ = calculate_expected_result(elo_home, elo_away)
     actual_result = get_actual_result(result)
@@ -55,3 +54,15 @@ def apply_mean_reversion(season_data: pd.DataFrame, regression_factor: float = 0
     season_data_copy['elo'] = (season_data_copy['elo'] * (1 - regression_factor)) + (mean_elo * regression_factor)
 
     return season_data_copy
+
+
+def calculate_elo_bonus(win_percentage: float, weight: float) -> float:
+    """
+    Calculates the Elo bonus equivalent of a win percentage.
+
+    This is the inverse of the Elo probability formula and is used to
+    convert a statistical advantage (like home-field advantage) into an
+    Elo point bonus.
+    """
+    win_percentage = np.clip(win_percentage, 0.001, 0.999)
+    return -weight * np.log10(1 / win_percentage -1)
