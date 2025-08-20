@@ -25,7 +25,6 @@ def initialise_stats_table(seasons_data: dict[int, pd.DataFrame]) -> pd.DataFram
         'wins': 0,
         'draws': 0,
         'losses': 0,
-        'win_percentage': 0,
         'games_played': 0,
     })
 

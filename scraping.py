@@ -33,7 +33,6 @@ def extract_win_loss_data(html_content: str, year: int) -> pd.DataFrame:
             continue
 
         try:
-
             match_date = row.find('td').get_text().strip()
             match_date = match_date.split(' ')
             match_date = datetime.strptime(f"{match_date[1]} {match_date[2]} {year}", '%d %b %Y')
@@ -59,35 +58,35 @@ def extract_win_loss_data(html_content: str, year: int) -> pd.DataFrame:
     return df
 
 
-def get_season_results(seasons: list[int]) -> dict[int, pd.DataFrame]:
+def get_season_results(seasons: list[int], reload: bool = False) -> dict[int, pd.DataFrame]:
     '''
     Loop over each season and extract the win/loss data into a combined pandas dataframe
     '''
-
-    all_seasons = []
+    all_seasons = dict()
 
     for season in seasons:
         season_data: pd.DataFrame
+        file_path = f'data/{season}.csv'
 
-        print("Loading data for season {}....".format(season))
+        if reload and os.path.exists(file_path):
+            print(f'Reload option selected. Deleting existing file for {season}...')
+            os.remove(file_path)
 
-        if os.path.exists(f'data/{season}.csv'):
-            print('Reading data from file...')
-            season_data = pd.read_csv(f'data/{season}.csv')
+        if os.path.exists(file_path):
+            print(f'Reading data for season {season} from file...')
+            season_data = pd.read_csv(file_path)
         else:
-            print('Downloading data...')
+            print(f'Downloading data for season {season}...')
             url = f"https://www.footywire.com/afl/footy/ft_match_list?year={season}"
             html = get_html(url)
             season_data = extract_win_loss_data(html, season)
 
         if season_data.empty:
-            print(f"No data parsed for season {season}.")
+            print(f"No data parsed for season {season}. Skipping.")
             continue
 
         season_data['year'] = season
-        all_seasons.append(season_data)
+        all_seasons[season] = season_data
+        print(f"Finished parsing data for season {season}\n")
 
-        print("Finished parsing data for season {}\n".format(season))
-
-
-    return dict(zip(seasons, all_seasons))
+    return all_seasons
